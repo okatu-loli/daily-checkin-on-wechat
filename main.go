@@ -16,7 +16,7 @@ import (
 const (
 	webhookURL  = "http://192.168.0.71:3001/webhook/msg/v2?token=L9N1P6fOCyDJ"
 	groupName   = "千石"
-	dutyMessage = "是时候进行日常值班签到了！\n\n值班内容：\n1. 给猫铲屎\n2. 与猫互动"
+	dutyMessage = "是时候进行日常值班签到了！\n\n值班内容: \n1. 给猫铲屎\n2. 与猫互动"
 )
 
 var dutySchedule = map[time.Weekday]string{
