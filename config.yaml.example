@@ -1,0 +1,21 @@
+webhook:
+  url: "http://example.com/webhook"
+  groupName: "ExampleGroup"
+  isRoom: false
+
+dutySchedule:
+  Monday: "Alice"
+  Tuesday: "Bob"
+  Wednesday: "Charlie"
+  Thursday: "Dana"
+  Friday: "Eve"
+  Saturday: "Frank"
+  Sunday: "Grace"
+
+messages:
+  duty: "You are on duty today!"
+
+schedule:
+  hour: 9
+  minute: 0
+  second: 0
